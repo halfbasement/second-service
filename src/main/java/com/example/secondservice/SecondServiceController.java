@@ -24,4 +24,9 @@ public class SecondServiceController {
 
         return "헬로월드 두번째 서비스";
     }
+
+    @GetMapping("/check")
+    public String check(){
+        return "Hi , check Second - Serivce";
+    }
 }
